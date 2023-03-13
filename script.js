@@ -1,8 +1,12 @@
-let str1 = "lasagnas";
+let str1 = "lasagna";
+console.log();
 
-if (str1.length === 7) {
-  console.log("buon appetito");
+let arr1 = [1,2,3,4,5,"itsa me, chris pratt, the poser mario"]
+// console.log(arr1[5]);
+
+if (arr1.indexOf("pizza")===-1) {
+  console.log("this is not present in the array");
 }
 else{
-    console.log("what's a matta you")
+    console.log("it's present")
 }
