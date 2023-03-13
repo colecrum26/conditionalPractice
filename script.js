@@ -11,7 +11,7 @@
 //     console.log("it's present")
 // }
 
-let path = "bad";
+let path = "horror";
 
 switch (path) {
   case "good":
@@ -20,7 +20,9 @@ switch (path) {
   case "bad":
     console.log("BAD, WRONG!");
     break;
+  case "horror":
+    console.log("scaryyyy!!");
   default:
-    console.log("if you choose not to decide, you still have made a choice");
+    console.log("do you really want a life of horror?");
     break;
 }
